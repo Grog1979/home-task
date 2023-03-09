@@ -1,15 +1,15 @@
 ﻿//Максимальное из двух чисел
 Console.WriteLine("Введите первое число: ");
-int namberA = Convert.ToInt32(value: Console.ReadLine());
+int numberA = Convert.ToInt32(value: Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
-int namberB = Convert.ToInt32(value: Console.ReadLine());
-if(namberA > namberB)
+int numberB = Convert.ToInt32(value: Console.ReadLine());
+if(numberA > numberB)
 {
     Console.Write("max = ");
-    Console.WriteLine(namberA);
+    Console.WriteLine(numberA);
 }
 else
 {
     Console.Write("max = ");
-    Console.WriteLine(namberB);   
+    Console.WriteLine(numberB);   
 }
