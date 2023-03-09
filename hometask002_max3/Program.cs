@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите первое число: ");
+﻿//Максимальное из трех чисел
+Console.WriteLine("Введите первое число: ");
 int namberA = Convert.ToInt32(value: Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int namberB = Convert.ToInt32(value: Console.ReadLine());
